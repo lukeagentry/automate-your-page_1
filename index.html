@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title> Introduction to Programming</title>
+    <link rel="stylesheet" href="lukestyle.css">
+ </head>
+  <body>
+    <div class="heading">
+      <h1>Table of Contents</h1>
+  </div>
+    <div class ="toc">
+    <ul>
+      <li><h1><a href="#htmlprogramming"> HTML Programming</a></h1> </li>
+      <li><a href="#html"> HTML and The Internet</a></li>
+      <li><a href="#tagsandelements"> Tags and Elements</a></li> 
+      <li><a href="#computersarestupid"> Computers are Stupid</a>
+      <li><a href="#inlinevsblockelements"> Inline vs Block Elements</a></li>
+      <li><a href="#googlechrome"> Google Chrome</a></li>
+      <li><a href="#repetition"> Avoiding Repetition</a></li>
+      <li><a href="#css"> CSS</a></li>
+      <li><a href="#checkingcode"> Checking HTML and CSS Code</a></li>
+      <li><h1><a href="#pythonprogramming"> Python Programming</a></h1></li>
+      <li><a href="#computer"> Computer </a></li>
+      <li><a href="#computerprogram"> Computer Program </a></li>
+      <li><a href="#programminglanguage"> Programming Language </a></li>
+      <li><a href="#python"> Python </a></li>
+      <li><a href="#grammar"> Grammar </a></li>
+      <li><a href="#pythonexpressions"> Python Expressions </a></li>
+      <li><a href="#variables"> Variables </a></li>
+      <li><a href="#equalsign"> Math and Python Differences</a></li>
+      <li><a href="#strings"> Strings </a></li>
+      <li><a href="#indexing"> Indexing Strings </a></li>
+      <li><a href="#subsequences"> Sub-sequences of Strings</a></li>
+      <li><a href="#stringsinstrings"> Finding Strings Within Strings</a></li>
+      <li><a href ="#secondparameter"> Using Find with a Second Parameter</a></li>
+      <li><a href="#function"> What is a Function? </a></li>
+      <li><a href ="#makingandusing"> What is the difference in making and using a function?</a></li>
+      <li><a href="#functionrepetition"> How do functions help to avoid repetition?</a></li>
+      <li><a href ="#noreturn"> What happens if a function doesn't have a return statement</a></li>
+      <li><a href="#makingdecisions"> Making Decisions</a></li>
+      <li><a href="#statements"> What are if and else statements?</a></li>
+      <li><a href="#loops">Loops</a></li>
+      <li><a href="#debugging">Debugging</a></li>
+      </ul>
+      
+ </div>
+    <div class="heading" id="htmlprogramming">
+    <h1>HTML Programming</h1>
+ </div>
+     <div class ="topic" id="html">
+    <h3>HTML and The Internet</h3>
+ </div>
+ <div class="text">
+    <p>HTML stands for Hypertext Markup Language.  The web contains somewhere around 30 billion HTML documents.  These documents are all stored on servers. When you <a href="https://www.google.com">"Google"</a> something, your computer submits a <em>HTTP</em> request to a server.  The server finds the document you are looking for and sends that document to your computers browser. The browser interprets the page and displays it on your computer.</p>
+    
+    <p>All HTML documents are divided in to multiple "invisible boxes" of content.  These boxes can contain things such as images, text and even links to other pages.  When creating an idea for a website, it can be useful to take something as simple as a pencil to draw out the overall design of the website.  You can then take it one step further by drawing boxes around related content.  This will help give you an idea as to how the website would be built.  There are many ways to make these "invisible boxes".  One way it to use what is called a "div" tag.  You simply place a opening "div" tag at the begining of the content and a closing "div" tag at the end.</p>
+</div>
+<div class="topic" id="tagsandelements">
+  <h3>Tags and Elements</h3>
+</div>
+<div class="text">
+    <p>Tags and elements make up every page of HTML code. This is how computers read the documents.  Tags consist of two parts.  There is an opening tag and a closing tag.  To create the opening tag you use the less than sign, put your command inside, and place a greater than symbol on the other side.  You then place your content inside and close the tag by using the less than sign, backslash, your command, and the greater than sign.  So, to make something bold you would write &lt;b&gt; Content &lt;/b&gt;.  Everything from the begining less than symbol to the ending greater than symbol make up an element.  </p>
+</div>
+    <div class=topic id="computersarestupid">
+      <h3> Computers are Stupid </h3>
+</div>
+    <div class=text>
+      <p>Computers are stupid in that they can't catch basic coding mistakes that a human can catch. They simply do what they are told to do by the coding within the HTML document. Therefore, having a period out of place or forgetting to close a tag can cause major problems.  This is why you must be so precise with all coding.</p> 
+    </div>
+
+<div class="topic" id="inlinevsblockelements">
+<h3>Inline vs Block Elements</h3></div>
+<div class="text">
+    <p>Elements of an HTML document are either Inline or Block.  Block elements are used to create "invisible boxes" around the content inside of them.  Two examples of block elements &lt;div&gt; and &lt;p&gt;.  Inline elements generally only apply to the content in between the opening and closing of the tag.  Two examples of inline elements would be &lt;em&gt; and &lt;b&gt;.</p>
+</div>
+
+<div class="topic" id="googlechrome">
+<h3>Google Chrome</h3>
+</div>
+<div class="text">
+    <p>Google Chrome is a unique internet browser.  Whenever you open a internet page using Chrome, a menu appears in the upper right hand corner.  You can click on this menu and go to "tools".  From there you can go to "developer tools".  When you open developer tools on a webpage, you can see all of the HTML coding for that page.  This is a great tool when you are first starting to code.  By looking at existing code and changing the code, you can start to figure out how things are programed.</p> 
+</div>
+<div class="topic" id="repetition">
+  <h3> Avoiding Repetition </h3>
+</div>
+<div class="text">
+    <p>Avoiding repetition in HTML coding is very important.  For instance, a programer that uses a lot of repetition will often write the exact same code over and over.  In many cases they will simply copy and paste code in to different parts of a document.  When that programer decides to make changes to a document, they have to go through every line of code ensure that small change was replicated.</p>
+    <p>Consistency is another very good reason to avoid repetition when writing HTML code.  If you want to give a document or a series of documents the same feel, then they must be coded the same.  This is best done by assigning specific "classes" to each part of the document.  By having different "classes" for each part of the document, you only have to change the class file in your CSS to make changes throughout the entire document.</p>
+</div> 
+  
+<div class="topic" id="css">
+<h3>CSS</h3>
+</div> 
+<div class="text">
+    <p>CSS stands for cascading style sheets.  These style sheets are what is used to determing how a page looks on the internet.  You can control virtualy every aspect of a page if you know the correct CSS to use.  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">This page</a> can be used as a resource for looking up different CSS.  It would be almost impossible to learn every CSS variable, so it is common to use a website like this.</p> 
+</div>
+<div class="topic" id= "checkingcode">
+    <h3>Checking HTML and CSS Code</h3>
+</div>
+<div class="text">
+      <p><a href="http://validator.w3.org/#validate_by_input">This page</a> can be used for checking the formatting of your HTML coding.  At the bottom of the page, all of the errors in your HTML file will be revealed.  Also,<a href="http://jigsaw.w3.org/css-validator/#validate_by_input">This page </a> can be used to make sure that you CSS coding is correct.</p>
+ </div>
+ <div class=heading id="pythonprogramming">
+     <h1> Python Programming </h1>
+ </div>
+ <div class=topic id=computer>
+    <h3>Computer</h3>
+  </div>
+  <div class=text>
+    <p>In general, machines are designed to do a certain task.  Unless you take the machine apart and alter it, the machine will only do what it was designed for.  This is where computers are different from other machines.  A computer can be <em>programmed</em> to do almost anything we want.  If you are able to write a very specific sequence of instructions for a computer to follow, you can make a computer do whatever you tell it to do.</p>
+  </div>
+  <div class=topic id=computerprogram>
+    <h3> Computer Program </h3>
+  </div>
+  <div class=text>
+    <p>A computer program can best be described as a very precise sequence of steps that a computer can follow to complete a task.  The web browser you are looking at this document in is a program.  The software I am writing this code in is a program.  The list can go on and on.</p>
+  </div>
+  <div class=topic id=programminglanguage>
+    <h3> Programming Language </h3>
+  </div>
+  <div class=text>
+    <p>A programming language is what computer programmers use to tell a computer what to do.  COBOL is an example of a programming language.  It was one of the first high-level programming languages ever made.  It was designed for the Harvard Mark I computer by Rear Admiral Grace Hopper and many of her former employees in 1959.</p>
+  </div>
+  <div class=topic id=python>
+    <h3> Python </h3>
+  </div>
+  <div class=text>
+    <p>Pyhton is one of many computer programming languages.  Its name was derived from the T.V. series <em>Monty Python's Flying Circus</em>.  You can enter Python code into a Python Interpreter and press "Run" to see the results.  The interpreter takes the code you wrote and converts it to instructions that the computer can read and execute or "Run".</p>
+  </div>
+  <div class=topic id=grammar>
+    <h3> Grammar</h3>
+  </div>
+  <div class=text>
+    <p>Programming languages, just like human languages, have grammar rules they must follow.  These grammar rules tell us what is "correct" and what is "incorrect" for a particular language.  These grammar rules are necessary because computers are stupid.  Humans can usually understand what someone is trying to say even if they don't use the correct structure.  Computers cannot!  Code must be written <em>exact</em> or it will not run in Python.</p>
+  </div>
+  <div class=topic id=pythonexpressions>
+    <h3> Python Expressions </h3>
+  </div>
+  <div class=text>
+    <p><a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3527838955/e-48704311/m-48736065"> This video</a> does a great job explaining what a Python Expression is.  Basically, a Python Expression must be valid according to the defined Python Grammar rules.  For example, <span class="code">2 + 2</span> is a complete Python Expression where as <span class="code">2 +</span> is not.  The second statement is not valid because it doesn't end with a number.  Humans may interpret <span class="code">2 +</span> in many different ways, but Python simply gives the user an error since it is not a valid expression.</p>
+  </div> 
+  <div class=topic id=variables>
+    <h3> Variables</h3>
+  </div>
+  <div class=text>
+    <p>You can create variables in Python by using an assignment statement. An assignment statement gives a value to any combination of letters, symbols and underscores.  An example of an assignment statement could be <span class="code"> hours_per_day = 24</span>.  This makes <span class="code">hours_per_day</span> a variable that is now equal to the number <span class="code">24</span>.  Now, every time you type <span class="code">hours_per_day</span>, Python will automatically substitute the value <span class="code">24</span> in.  Notice that I did not use spaces in <span class="code">hours_per_day</span>.  Python will not interpret spaces in a variable and will generate an error.  Python is also case sensitive.  It is best to always use lower case letters.  One thing using assignment statements to create variables does is it makes it much easier to understand code when you come back to it later or someone else is reading it.  You can also type comments in Pyton by using the <span class="code">#</span> symbol at the beginning of a line.  Python will automatically ignore whatever follows the <span class="code">#</span> symbol.</p>
+    <p>Variables can also be changed in Python after the initial value is set.  For example, if I wanted to change <span class="code">hours_per_day</span> to the value <span class="code">30</span>, I would simply type <span class="code">hours_per_day = 30</span> somewhere below the initial <span class="code">hours_per_day = 24</span>.  Python will automatically assign the most recent value of the variable entered.</p>
+    </div>
+    <div class=topic id=equalsign>
+      <h3>Math and Python Differences</h3>
+    </div>
+    <div class=text>
+     <p>In math, the <span class="code">=</span> sign is used to mean equal.  In programming the <span class="code">=</span> sign is better interpreted as an arrow pointing to the left, or <span class="code"> &lt;=</span>.  This means that the <span class="code">=</span> sign is assigning a value to the variable on the left side of the statement.  That variable does not have to be numeric.  It can be anything you can type on your keyboard.  In the example above, the number of hours in a day (24 or 30 depending on which one was assigned last) is being assigned to the variable <span class="code">hours_per_day</span>.</p>
+    </div>
+    <div class=topic id=strings>
+      <h3> Strings </h3>
+    </div>
+    <div class=text>
+      <p>It is also important to note that variables can be assigned to more than just numbers.  In Python, this would be called a string.  A string is a sequence of characters contained within a set of quotation marks.  The quotation marks can either be single <span class="code">'</span> or double <span class="code">"</span>, but the end of a string the must be the exact same symbol that you began the string with.  For example, I could assign the variable name to be <span class="code">name = 'My name is Luke'</span>.   Now, when I run the function <span class="code">print name</span> in Python, the interpreter will print <span class="code">My name is Luke</span>.  The interpreter does not print the quotation marks, but it prints everything between the opening and closing quotation marks.</p>
+      <p>You can also use the operator <span class="code">+</span> with strings.  The result of<span class="code"> &lt;string&gt;+&lt;string&gt; </span> is the concatenation of the two strings.  For example, I could set the variable <span class="code">greeting = 'Hello everyone'</span>.  I could then <span class="code">print greeting + !</span> in the Python interpreter to generate <span class="code">Hello everyone!</span>.  The operator <span class="code">+</span> only works with two or more strings.  It does not work with numbers.  For example, if I were to run the function <span class="code">print greeting + 5</span>, Python would come back with an <span class="code">error</span> because the operation makes no sense.  However, the operation <span class="code">*</span> does work with strings.  If I were to run the operation <span class="code">print greeting * 3</span> I would end up with <span class="code">Hello everyoneHello everyoneHello everyone</span>.</p>
+   </div>
+   <div class=topic id=indexing> 
+      <h3>Indexing Strings</h3>
+   </div>
+   <div class=text>
+     <p>  Indexing is something that can be done with strings, but cannot be done with numbers.  You can index a string by having <span class="code"> &lt;string&gt;[&lt;expression&gt;] </span>.  The expression contained within the <span class="code">[ ]'s</span> must be numeric.  Indexing assigns a number to the point at which a character occurs.  Indexing begins with the number zero and continues from there until the end of the string.  For example, if I had the string of <span class="code">'Luke'</span>, <span class="code">L</span> would be zero, <span class="code">u</span> would be one, <span class="code">k</span> would be two, and <span class="code">e</span> would be three.  You could then get Python to produce any letter in the string by using string indexes.  If I ran the operation <span class="code">print 'Luke'[3]</span>, Python would print only the third position which is the lowercase <span class="code">e</span>.  If you run the index for a number that is greater than the number of positions in a string you will get an error.</p>
+     <p>You can also use negative numbers when indexing strings.  When you us a negative number to index strings, you are starting from the end of the string and counting backwards.  For example, if I ran <span class="code">print 'Luke'[-1]</span>, Python would produce the first letter from the end of the string which is again the lowercase <span class="code">e</span>.  If I ran <span class="code">print 'Luke'[-3]</span>, Python would produce lowercase <span class="code">u</span> which is the third letter from the end of the string.</p>
+          </div>
+   <div class=topic id=subsequences>
+      <h3>Sub-sequences of Strings</h3>
+   </div>
+   <div class=text>
+    <p>The format for selecting sub-sequences of a string is <span class="code">&lt;string&gt;[&lt;expression&gt;:&lt;expression&gt;]</span> and the expression contained within the <span class="code">[ ]'s</span> must also be numeric.  The position of the characters in a string is determined using the same rules as in indexing strings.  The sub-sequencing of strings has a start position (the left side of the colon) and a stop position (the right side of the colon).  The start position is from the numeric position identified and the stop position is from the numeric stop position minus 1.  So, if I ran <span class="code">print 'Luke'[0:2]</span> I am telling Python that I want all of the characters from zero to two minus one, which in this case would be <span class="code">Lu</span>.  The actual character in position two will not be included.  Everything up until the start of position two will be included.</p>
+    <p>When selecting sub-sequences of strings you can leave the right side of the colon, or the stop position, blank and the sub-sequence will go until the end of the string.  This is very useful when you have a very long string.  You do not have to count to the end of the string.  The computer will automatically stop at the end.  You can also leave the start position, or the left side of the colon, empty.  This will automatically set the start position to the beginning of the string.  An example would be running <span class="code">print 'Luke'[1: ]</span> which would give you a result from the first position character all the way to the end of the string or <span class="code">uke</span>.  If you were to run the string <span class="code">print 'Luke'[ :3]</span> you would only come out with the result <span class="code">Luk</span> because the start position will automatically be set at the beginning of the string and the end of the sub-sequence would be three minus one.</p>
+   </div>
+   <div class=topic id=stringsinstrings>
+      <h3>Finding Strings in Strings</h3>
+   </div>
+   <div class=text>
+     <p>Find is a method that is built in by Python and it looks like &lt;string&gt;.find(&lt;string&gt;).  This will allow you to find a specific string within a string of code.  The result of <span class="code">.find</span> in Python will always give you the starting position of the first occurrence of the string you are looking for as a number in relation to its position in the string.  If the target string you are searching for is not found in the entire string you are searching, the result will be <span class="code">-1</span>.  If I defined the variable <span class="code">sentence = ‘What time is a good time for me to leave?</span>’ I could the run <span class="code">print sentence.find('time')</span> and it would result in the first occurrence of the word time or the fifth position.  If I were to run <span class="code">print sentence.find('clock')</span> I would get a result of <span class="code">-1</span> since the word clock is not contained within the string.</p>
+    </div>
+    <div class=topic id=secondparameter>
+       <h3>Using Find with a Second Parameter</h3>
+    </div>
+    <div class=text>
+      <p>What is a <span class="code">.find</span> parameter?  The parameter of <span class="code">.find</span> is the piece of the string you are searching for.  In the above example, the parameter of find was first <span class="code">'time'</span> and then changed to <span class="code">'clock'</span>.  As noted in the original description of <span class="code">.find</span>, the position of the first occurrence of the search string will be returned.  What if you want to find subsequent occurrences?  You can use a second parameter to adjust your search and find additional occurrences.  For example, in the variable <span class="code">sentence</span> as defined above we know that the first occurrence of the word <span class="code">'time'</span> is in the fifth position.  So, we could use a second parameter to tell <span class="code">.find</span> to begin its search after the fifth character.  That would look like <span class="code">print sentence.find('time',6)</span>.  This will return the first occurrence of the string <span class="code">'time'</span> after the fifth position.  Position <span class="code">20</span> is the first occurrence of the string <span class="code">'time'</span> after the fifth position.  If the string <span class="code">'time'</span> was not contained a second time in the variable sentence then your result would be -1 since it does not exist.  Just like <span class="code">.find</span> with one parameter.</p>
+    </div>
+    <div class=topic id=function>
+      <h3> What is a Function?</h3>
+    </div>
+    <div class=text>
+      <p>A function takes the inputs that are given, does something to them, and then produces an output.  An example of a function could be a function named <span class="code">multiply</span>. It is good practice to name your functions logically so that they can be identified later.  The function <span class="code">multiply</span> would produce the result of <span class="code">a * b.</span></p>
+    </div>
+    <div class=topic id=makingandusing>
+      <h3>What is the difference in making and using a function?</h3>
+    </div>
+    <div class=text>
+      <p>To make a function you would use the keyword <span class="code">def</span>, followed by <span class="code">&lt;procedure&gt;(&lt;input&gt;,&lt;input&gt;,&lt;input&gt;…) </span>.  There can be any number of inputs, but the number of inputs must match the number the function is expecting.  To make the function multiply, as mentioned above, we would enter:<br>
+      <span class="code">Def multiply (a,b):<br>
+        &nbsp; return = a * b</span><br>
+
+      To use the function, we would type:<br>
+      <span class="code">print multiply (4,5)<br>
+      >>>20</span>
+        </p>
+ </div>
+ <div class=topic id=functionrepetition>
+      <h3>How do functions help to avoid repetition?</h3>
+ </div>
+ <div class=text>
+      <p>Programmers can use functions in Python to decrease repetition in writing HTML code.  The programmer can create a function that automatically fills in all of the CSS information for a document.  Once a function is defined in Python, it will always be there for use in the future.  This helps programmers avoid repetition by always remembering what procedure a function name is referring to.  However, when code is contained within the content that you are trying to convert to HTML, problems can occur.  This method would be best suited for non-technical HTML coding.</p>
+ </div>
+ <div class=topic id=noreturn>
+      <h3>What happens if a function doesn't have a return statement</h3>
+ </div>
+ <div class=text>
+      <p>If you do not include a return statement with your function, the function will not work and you will receive an error message.  The return statement of a function tells Python what it needs to do with the given input to produce the correct output.</p>
+ </div>
+ <div class=topic id=makingdecisions>
+        <h3>Making Decisions</h3>
+ </div>
+   <div class=text>
+     <p>Python has many characters that can be used for making decision.  There is the lass than sign &lt;, the greater than sign &gt;, the not equas to sign !=, and the equals to sign ==.   You must be sure to use two equal signs to mean equals to in Python because one equal sign assigns a value to something.  These signs are used to make decisions in Python.  You can use the signs in the following way:<br> <span class="code">&lt;number&gt; (operator) &lt;number&gt;</span>.  The value that is returned is called a Boolean value, which is True or False.<br>
+     An example would be: <br>
+     <span class="code">print 10 > 21<br>
+     False</span><br>
+     Since 10 is not greater than 21, this will always be False.</p>
+ </div>
+ <div class=topic id=statements>
+    <h3>What are if and else statements?</h3>
+ </div>
+ <div class=text>
+    <p>An if statement can be formed by typing:<br>
+    <span class="code">If&lt;Test Expression&gt;:<br>
+    &nbsp; &lt;block&gt;</span><br>
+    This means that if the test expression is <span class="code">True</span>, then the following block of code is run.  If the test expression is <span class="code">False</span>, the computer will move to the next expression in the code.  For example, if we wanted to define an expression that tells us the biggest of two numbers we could write:<br>
+    <span class="code">def bigger(a,b):
+    if a &gt; b:<br>
+    &nbsp; return a<br>
+    else:<br>
+    &nbsp; return b</span><br>
+    There are many ways that bigger could be defined using Python, but this way makes the most sense to me.  We first define the procedure bigger as having two inputs, a & b.  The inputs can be named anything you want.  I just used a & b since there was no real significance to them.  We then tell the computer that if a &gt; b, it should return a.  If a is not bigger than b, we know that b is the biggest number in the pair so we tell the computer to return b.  The computer moves to run the else statement because the first statement is <span class="code">False</span>.  If the first statement was <span class="code">True</span>, the computer would not run the second statement.</p>
+</div>
+<div class=topic id=loops>
+ <h3>Loops</h3>
+</div>
+<div class=text>
+   <p>The first loop that we learned about is called the while loop.  The while loop is formed like:<br>
+   <span class="code">While &lt;Test Expression&gt;:<br>
+   &nbsp; &lt;Block&gt;</span><br>
+   As with an if expression, the block of a while loop runs when it generates a <span class="code">True</span> expression.  The if expression stops running the expression after 0 or 1 times (depending on if the test expression is True or False) whereas the while loop will continues to run until it returns a False expression. An example of a while loop is:<br>
+   <span class="code">i = 0<br>
+   While &lt; 10:<br>
+     &nbsp; print i<br>
+   &nbsp; i = i + 1</span><br>
+   This will result in the return of 0,1,2,3,4,5,6,7,8,9.  The loop stops printing at 9 because the expression becomes False once i becomes less than 10.  However, by simply moving the placement of the print statement we can include 10 in the return.  That would look like:
+   <span class="code">i = 0<br>
+   While i &lt; 10:<br>
+     &nbsp; i = i + 1<br>
+   &nbsp; print i</span><br>
+   This produces a slightly different result.  The return now starts at 1 instead of zero and ends with 10 instead of 9.</p>
+</div>
+<div class=topic id=debugging>
+  <h3>Debugging</h3>
+</div>
+  <div class=text>
+   <p>Bugs in programs are inevitable.  Programmers are always going to make mistakes when writing code.  Developing a system to help identify bugs is critical to being a successful programmer.</p>
+   <p>Error messages that are generated when you have a bug in your code don’t appear to make a lot of sense when you first look at them.  However, there is often very important information within the error message.  Python will generate a Traceback error when code is not written properly.  This error message will give you an idea as to where the error occurred and it will also tell you what type of error it is.  This can be very helpful when tracking down what caused your problem.</p>
+   <p>You have to use caution when using existing code.  You first need to check and make sure that the code works as intended.  Just because code exist doesn’t mean that it works as designed.  Once you have made your changes to existing code that works and you receive an error message, it is helpful to look back at the existing code to make sure you didn’t accidentally copy and paste something wrong.   You could have missed something as simple as a colon or quotation mark.  If you don’t find anything obvious that was missed, you can comment out the code using hash marks at the beginning of each line.  You don’t want to start making random changes to your code because the undo button only works for mistakes that are noticed immediately.  It will not take you back to a previous version of the code.</p>
+   <p>If you have code that doesn’t crash, but isn’t working as expected, you can use print statements to try and find where in your code the error is occurring.  This will help narrow down the search for the bug and usually point you in the direction of the error.  Simply place a print statement after every line of code to make sure it is functioning as it was designed to.</p>
+   <p>In order to help you track down bugs in the future, you should always save a file of your existing code that you know works.  This will serve as a point of reference if something goes terribly wrong in the addition of the new code.</p>
+    </div>
+
+     
+  
+</body>
+</html>
