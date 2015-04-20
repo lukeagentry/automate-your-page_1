@@ -1,0 +1,21 @@
+body{
+  padding: 5px; margin: 5px; font-family: arial; margin:0 auto;
+}
+.heading {
+  padding: 5px; font-size: 20px; font-style: italic; text-align: center; font-style: oblique; 
+}
+.toc {
+  font-size: 20px; line-height: 30px; text-align: center; list-style-type: none;
+}
+li {
+list-style-type: none;  
+}
+.topic {
+  font-size: 20px; text-align: center; font-style: oblique; color: #ffffff; border-radius: 15px; margin: 5px; background-color: #808080;
+}
+.text {
+  font-size: 17px; padding: 2px; margin: 10px;
+}
+span.code{
+  background-color: #dcdcdc; font-weight: bold;
+}
